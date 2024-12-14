@@ -1,0 +1,26 @@
+{
+  "name": "@stock-stroller/server",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/lib.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^10.0.1",
+    "@fastify/helmet": "13.0.0",
+    "@fastify/sensible": "^6.0.1",
+    "@trpc/client": "^10.45.2",
+    "@trpc/server": "^10.45.2",
+    "fastify": "^5.2.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
